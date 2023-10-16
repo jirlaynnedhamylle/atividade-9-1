@@ -9,17 +9,22 @@
 </head>
 <body>
     <h3>Separar Nome e Sobrenome</h3>
+    <div class="form-group">
+        <label for="nomeCompleto">Nome Completo:</label>
+        <input type="text" class="form-control" id="nomeCompleto" placeholder="Digite seu nome completo">
+    </div>
 
-    <label for="nomeCompleto">Nome Completo:</label>
-    <input type="text" id="nomeCompleto" placeholder="Digite seu nome completo">
-    
-    <button onclick="separarNomeSobrenome()"> >></button>
+    <button class="btn btn-primary" onclick="separarNomeSobrenome()">Separar</button>
 
-    <label for="nome">Nome:</label>
-    <input type="text" id="nome" readonly>
-    
-    <label for="sobrenome">Sobrenome:</label>
-    <input type="text" id="sobrenome" readonly>
+    <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" class="form-control" id="nome" readonly>
+    </div>
+
+    <div class="form-group">
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" class="form-control" id="sobrenome" readonly>
+    </div>
 
 </body>
 </html>
